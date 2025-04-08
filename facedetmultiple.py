@@ -13,8 +13,8 @@ def get_screen_resolution():
     return width, height
 
 # Paths to the model files
-model_file = r"C:\Users\Bakr'\OneDrive\Desktop\New\res10_300x300_ssd_iter_140000_fp16.caffemodel"
-config_file = r"C:\Users\Bakr'\OneDrive\Desktop\New\deploy.prototxt"
+model_file = r"\res10_300x300_ssd_iter_140000_fp16.caffemodel" #Add your own file path here
+config_file = r"\deploy.prototxt" #Add your own file path here
 
 # Check if model files are available
 try:
